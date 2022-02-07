@@ -1,5 +1,5 @@
 {
-    "name": "jojo/social-login-bundle",
+    "name": "fatigba/symfony-social-login-bundle",
     "description": "Un bundle symfony simple pour se connecter avec des fournisseurs OAuth2 (Google, Facebook, ... etc).",
     "type": "libray",
     "license": "MIT",
