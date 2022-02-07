@@ -1,0 +1,30 @@
+{
+    "name": "jojo/social-login-bundle",
+    "description": "Un bundle symfony simple pour se connecter avec des fournisseurs OAuth2 (Google, Facebook, ... etc).",
+    "type": "libray",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jordy",
+            "email": "jordy.fatigba@semoa-togo.com"
+        }
+    ],
+    "require": {
+        "knpuniversity/oauth2-client-bundle": "^2.9",
+        "league/oauth2-google": "^4.0",
+        "symfony/framework-bundle": "4.4.*",
+		"friendsofsymfony/user-bundle": "^2.1",
+        "doctrine/doctrine-bundle": "^2.5"
+    },
+    "extra" : {
+		"symfony" : {
+			"allow-contrib": true,
+			"require": "4.4.*"
+		}
+	},
+    "autoload" : {
+		"psr-4" : {
+			"JFK\\" : "src/"
+	    }
+	}
+}
