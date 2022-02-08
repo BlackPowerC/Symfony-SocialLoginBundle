@@ -1,6 +1,6 @@
 <?php
 
-namespace JFK\SocialLogin\Google;
+namespace JFK\SocialLogin;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
